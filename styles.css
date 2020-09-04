@@ -1,13 +1,3 @@
-/* #triangle-topleft {
-  width: 0;
-  height: 0;
-  border-top: 200px solid red;
-  border-right: 200px solid transparent;
-} */
-
-/*
- * Variables
- */
 :root {
   /* css variables done using double hyphens and to use them use the var function */
   --card-padding: 24px;
@@ -106,25 +96,4 @@
 body {
   min-height: 100vh;
   background-color: #fff;
-  /* display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center; */
-}
-
-.linear {
-  background-repeat: no-repeat;
-  background-image: radial-gradient(circle 16px, white 99%, transparent 0),
-    linear-gradient(white 40px, transparent 0),
-    linear-gradient(gray 100%, transparent 0);
-
-  /* background: linear-gradient(red, green); */
-  /* width: 200px;
-  height: 400px; */
-}
-
-.linear {
-  background-size: 32px 32px, 200px 40px, 100% 100%;
 }
